@@ -2,9 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-   
-  }
- /* HOme section */
+    scroll-behavior: smooth;
+}
+
+ /* Home section */
 header{
     width: 100%;
 }
@@ -14,6 +15,7 @@ header{
     object-fit: cover;
     display: flex;
     justify-content: space-between;
+    margin: auto;
 }
 .container img{
     width: 400px;
@@ -35,8 +37,9 @@ header{
     background: url('./oybek.svg') #1F2732;
     width: 100%;
     height: 100%;
-    z-index: -1;
+    z-index: 1;
     position: relative;
+    margin: auto;
 }
 .home-btn1{
     width: 350px;
@@ -147,8 +150,9 @@ h1{
 }
 
 .home-btn2:hover{
-    background-color: goldenrod;
+    background-color: transparent;
     transition: 0.3s;
+    color: white;
 }
 .home-text{
     width: 50%;
@@ -651,8 +655,7 @@ h1{
     background: url('./oybek.svg') #262d37bd;
     width: 100%;
     height: 100%;
-    z-index: -1;
-    position: relative;
+ 
     padding: 140px 40px;
 }
 
@@ -676,6 +679,8 @@ h1{
     border-top: none;
     border-right: none;
     border-left: none;
+    color: white;
+    padding: 10px 30px;
 }
 .contact-items input:nth-child(5){
     width: 1100px;
@@ -695,8 +700,301 @@ h1{
     margin: 15px 410px;
     margin-top: 50px;
     transition: ease 0.3s;
+    background-color: #D1B06B;
 }
 .con-btn2:hover{
-    
+    background-color: transparent;
+    color: white;
 }
 
+.contact-frame{
+    width: 100%;
+    padding: 100px 20px ;
+    background-color: #161D27;
+}
+
+.frame{
+    width: 100%;
+    max-width: 1360px;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 50px;
+    max-height: 545px;
+}
+
+.frames{
+    text-align: center;
+    padding-bottom: 70px;
+}
+.frame-img1{
+    width: 50%;
+    max-width: 655px;
+    height: 546px;
+    padding: 0 20px;
+}
+.frame-div{
+    width: 85%;
+    border: 1px solid goldenrod;
+}
+
+.frame-text1{
+    max-width:655px;
+    color: #FFFFFF;
+    padding: 92px 20px;
+}
+.frame-text1 h3{
+    color: #D1B06B;
+    font-size: 21px;
+    padding: 24px 0;
+}
+.frame-text1 h1{
+    font-size: 45px;
+    line-height: 58px;
+}
+.frame-text1 p{
+    font-size: 20px;
+    line-height: 32px;
+    color: #D7D7D7;
+}
+
+.frame-text1 h3:nth-child(2){
+    font-size: 22px;
+    line-height: 35px;
+    color: #D1B06B;
+    width: 109px;
+}
+.view-div{
+    width: 109px;
+    border: 1px solid goldenrod;
+}
+.view-div2{
+    width: 109px;
+    border: 1px solid goldenrod;
+}
+
+.frame-div2{
+    width: 1360px;
+    border: 2px solid grey;
+    margin: 0 60px;
+}
+
+.frame-card{
+    width: 440px;
+    height: 721px;
+}
+
+.frame-card h3{
+    color: #D1B06B;
+    line-height: 35px;
+    font-size: 21px;
+    padding: 24px 0;
+}
+.frame-card h2{
+    font-size: 30px;
+    line-height: 39px;
+    color: #FFFFFF;
+    padding: 10px 0;
+}
+.frame-card p{
+    font-size: 20px;
+    line-height: 32px;
+    color: #D7D7D7;
+}
+.contact-frame2{
+    padding: 100px 30px;
+    display: grid;
+    height: 1800px;
+    gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #161D27;
+}
+
+.contact-imges img{
+    padding: 50px 0;
+    width:100%;
+    background-color: #161D27;
+}
+
+#contact{
+    background-color: #161D27;
+    padding: 70px 0px;
+}
+.footer-img{
+    padding: 10px 40px;
+    text-align: center;
+}
+
+.footer-cards{
+    width: 100%;
+    height: 371px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 40px;
+}
+.footer-text1 h2{
+    font-size: 30px;
+}
+.footer-text1{
+    font-size: 30px;
+    line-height: 39px;
+}
+.footer-text1{
+    padding: 20px;
+    margin: 0 20px;
+    border: 1px solid grey;
+    border-left: none;
+    border-right: none;
+    width: 323px;
+    height: 80px;
+    color: #FFFFFF;
+}
+
+.footer-blog{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 322px;
+    height: 260px;
+}
+.footer-item{
+    line-height: 32px;
+    font-size: 20px;
+    color: #D7D7D7;
+    padding: 0 20px;
+}
+.footer-item2{
+    line-height: 32px;
+    font-size: 20px;
+    color: #D7D7D7;
+}
+.footer-card2{
+    width: 185px;
+    height: 371px;
+    margin-left:50px;
+}
+.footer-text2{
+    padding: 20px;
+    margin: 0 20px;
+    border: 1px solid grey;
+    border-left: none;
+    border-right: none;
+    width: 185px;
+    height: 80px;
+    color: #FFFFFF;
+}
+
+.footer-item3{
+    line-height: 32px;
+    font-size: 20px;
+    color: #D7D7D7;
+}
+.footer-card3{
+    width: 185px;
+    height: 371px;
+    margin-left: 40px;
+}
+.footer-text3{
+    padding: 20px;
+    margin: 0 0px;
+    border: 1px solid grey;
+    border-left: none;
+    border-right: none;
+    width: 185px;
+    height: 80px;
+    color: #FFFFFF;
+}
+
+.footer-item4{
+    line-height: 32px;
+    font-size: 20px;
+    color: #D7D7D7;
+}
+.footer-card4{
+    width: 369px;
+    height: 371px;
+    margin-right: 40px;
+
+}
+.footer-text4{
+    padding: 20px;
+    margin: 0 20px;
+    border: 1px solid grey;
+    border-left: none;
+    border-right: none;
+    width: 369px;
+    height: 80px;
+    color: #FFFFFF;
+}
+
+.footer-aloqa1{
+    display: flex;
+    gap: 10px;
+}
+
+
+.footer-aloqa2{
+    display: flex;
+    gap: 10px;
+}
+.fot-text1{
+    margin-bottom: 20px;
+    display: flex;
+    height: 40px;
+}
+.fot-text1 i{
+    width: 21px;
+    height: 20px;
+}
+.footer-icon-card{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #D7D7D7;
+    border-left: none;
+    border-right: none;
+    padding:40px 20px;
+}
+.footer-icon-card h6{
+    color: #D1B06B;
+    font-size: 22px;
+}
+.icon-card1 h6{
+    padding: 0 5px;
+}
+.footer-icon-card p{
+    color: #D7D7D7;
+    font-size: 20px;
+}
+.icon-card2{
+    display: flex;
+    width: 245px;
+    height: 40px;
+}
+.icon-card2 i{
+    width: 21px;
+    height: 20px;
+    padding: 5px;
+    margin: 0 10px;
+}
+.icon-card1{
+    display: flex;
+}
+
+.footer-icons{
+    padding: 40px;
+}
+.icon-card2 i:hover{
+    color: #D7D7D7;
+    font-size: 30px;
+    transition: ease 0.3s;
+}
+
+.break i{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    color: #D7D7D7;
+}
+.break i:hover{
+    color: #D1B06B;
+    transition: ease 0.3s;
+}
